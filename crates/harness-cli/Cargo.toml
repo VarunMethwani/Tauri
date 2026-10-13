@@ -1,0 +1,10 @@
+[package]
+name = "harness-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Diagnostics and workspace inspection for Agent Harness"
+
+[dependencies]
+harness-core = { path = "../harness-core" }
+harness-tools = { path = "../harness-tools" }
